@@ -6,3 +6,41 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+
+.artbox {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  place-items: center;
+  gap: 20px;
+}
+
+.circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.cylinder{
+  width: 100px;
+  height: 200px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.design-container img {
+  width: 100px;
+  height: 200px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  object-fit: cover;
+  filter: brightness(50%);
+  transition: 0.5s all;
+
+}
+
+.design-container img:hover{
+  filter: brightness(100%);
+}
