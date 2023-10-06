@@ -36,11 +36,7 @@
   margin-bottom: 10px;
   border-radius: 50px;
   object-fit: cover;
-  filter: brightness(50%);
   transition: 0.5s all;
 
 }
 
-.design-container img:hover{
-  filter: brightness(100%);
-}

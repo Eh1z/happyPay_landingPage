@@ -38,7 +38,7 @@ const Navbar = () => {
     { toggle && (
 
       <motion.div 
-      className='fixed flex top-5 right-3 z-20 pb-10 w-[400px] flex-col justify-center items-center bg-[#ffff] rounded-2xl shadow-2xl text-lg'
+      className='absolute flex top-5 right-3 z-50 pb-10 w-[200px] flex-col justify-center items-center bg-white rounded-2xl shadow-2xl text-lg'
       initial="hidden"
       whileInView="visible"
       transition={{ duration: 0.3, ease: 'linear' }}
@@ -47,24 +47,19 @@ const Navbar = () => {
         hidden: { opacity: 0, x: 50 }
       }}
       >
-          <div className='pl-80 py-2'>
+          <div className='pl-32 py-2'>
               <HiX className='w-[35px] h-[35px] my-2 text-[#DA3338]'
               onClick={() => setToggle(false)}/>
           </div>
 
 
             <ul className='flex flex-col items-center justify-center font-medium ease-in-out transition-all duration-300'>
-                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-8 '>Crypto</li>
-                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-8 '>Giftcards</li>
-                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-8 '>Flights</li>
-                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-8 '>Cars</li>
-                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-8 '>Yachts</li>
+                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>Crypto</li>
+                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>Giftcards</li>
+                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>Flights</li>
+                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>Cars</li>
+                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>Yachts</li>
             </ul>
-
-            <a href="#">
-            <button className='mt-20 bg-[#D5E2F3] hover:bg-[#f5f5f5] text-[#FF0000] font-medium rounded-xl border-2 border-[#D5E1F2] px-10 py-3 ease-in-out transition-all duration-300 cursor-pointer'>
-              <p>Get In Touch</p>
-            </button></a>
         </motion.div>
 
     )}
