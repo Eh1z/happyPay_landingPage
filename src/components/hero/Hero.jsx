@@ -82,8 +82,45 @@ const Hero = () => {
           
     </div>
 
-    <div className='w-full px-32 py-10 flex justify-center'>
-      <h1 className='text-5xl font-bold'>Why Us?</h1>
+    <div className='w-full px-32 py-10 flex flex-col justify-center items-center'>
+      <h1 className='text-5xl font-bold mb-20'>Why Us?</h1>
+
+      <div className='grid grid-cols-3 gap-20'>
+        <div className='bg-white w-[400px] h-[350px] flex flex-col justify-center items-center text-center p-10 rounded-xl border-2 border-[#E8E8E8] hover:border-[#FF0000] hover:shadow-lg hover:shadow-[#FF0000] transition-all ease-in-out duration-500'>
+          <img src="/src/assets/image.jpg" alt="" 
+          className='w-[100px] h-[100px] rounded-full'/>
+          <h2 className='font-bold py-3 text-xl'>
+            Ease of Payments
+          </h2>
+          <p className=''>
+          We prioritize your convenience with a seamless payment process, so you can focus on enjoying your experiences.
+          </p>
+        </div>
+
+
+        <div className='bg-white w-[400px] h-[350px] flex flex-col justify-center items-center text-center p-10 rounded-xl border-2 border-[#E8E8E8] hover:border-[#FF0000] hover:shadow-lg hover:shadow-[#FF0000] transition-all ease-in-out duration-500'>
+          <img src="/src/assets/image.jpg" alt="" 
+          className='w-[100px] h-[100px] rounded-full'/>
+          <h2 className='font-bold py-3 text-xl'>
+            Competitive Pricing
+          </h2>
+          <p className=''>
+          Enjoy premium experiences without breaking the bank with our competitive rates across all services.
+          </p>
+        </div>
+
+
+        <div className='bg-white w-[400px] h-[350px] flex flex-col justify-center items-center text-center p-10 rounded-xl border-2 border-[#E8E8E8] hover:border-[#FF0000] hover:shadow-lg hover:shadow-[#FF0000] transition-all ease-in-out duration-500'>
+          <img src="/src/assets/image.jpg" alt="" 
+          className='w-[100px] h-[100px] rounded-full'/>
+          <h2 className='font-bold py-3 text-xl'>
+            Expert Support
+          </h2>
+          <p className=''>
+          Our dedicated to assisting you, whether it be trading or planning your dream vacation.
+          </p>
+        </div>
+      </div>
     </div>
     </>
   )

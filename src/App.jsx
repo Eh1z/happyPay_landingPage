@@ -3,7 +3,7 @@ import React from 'react'
 
 
 import { Navbar, Footer } from './constants'
-import { Cars, Crypto, Flights, Giftcards, Hero, Yatch } from './components'
+import { Cars, Crypto, Flights, Hero, CTA } from './components'
 
 const App = () => {
   return (
@@ -11,10 +11,9 @@ const App = () => {
     <Navbar/>
     <Hero/>
     <Crypto/>
-    <Giftcards/>
     <Flights/>
     <Cars/>
-    <Yatch/>
+    <CTA/>
     <Footer/>
     </div>
   )

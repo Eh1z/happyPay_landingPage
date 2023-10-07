@@ -1,6 +1,5 @@
 export { default as Cars } from './cars/Cars'
 export { default as Crypto } from './crypto/Crypto'
 export { default as Flights } from './flights/Flights'
-export { default as Giftcards } from './giftcards/Giftcards'
 export { default as Hero } from './hero/Hero'
-export { default as Yatch } from './yatch/Yatch'
+export { default as CTA } from './cta/CTA'

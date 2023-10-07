@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+
 }
 
 
@@ -40,3 +45,12 @@
 
 }
 
+
+
+.bg{
+  background-image: url(/src/assets/map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+
+}
