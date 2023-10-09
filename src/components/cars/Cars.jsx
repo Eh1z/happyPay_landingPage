@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-scroll'
+import { Link } from 'react-scroll';
+import { images } from '../../assets/'
 
 const Cars = () => {
   return (
@@ -16,7 +17,7 @@ const Cars = () => {
       </div>
 
       <div className='w-[400px] lg:w-[800px] flex justify-end '>
-        <img src="/src/assets/car2.png" alt="" 
+        <img src={images.car2} alt="" 
         className='rounded-lg'/>
       </div>
     </div>

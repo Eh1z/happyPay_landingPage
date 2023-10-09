@@ -1,12 +1,13 @@
 import React from 'react';
-import { Link } from 'react-scroll'
+import { Link } from 'react-scroll';
+import { images } from '../../assets/'
 
 const Flights = () => {
   return (
     <div className='px-10 lg:px-64 py-20 flex flex-col lg:flex-row justify-between items-center' id='flights'>
 
       <div className='w-[400px] hidden lg:block  lg:w-[800px]'>
-        <img src="/src/assets/plane2.png" alt="" 
+        <img src={images.plane2} alt="" 
         className='rounded-lg'/>
       </div>
 
@@ -21,7 +22,7 @@ const Flights = () => {
       </div>
 
       <div className='w-[400px] lg:hidden'>
-        <img src="/src/assets/plane2.png" alt="" 
+        <img src={images.plane2} alt="" 
         className='rounded-lg'/>
       </div>
 

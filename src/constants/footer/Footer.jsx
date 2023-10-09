@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
+import { images } from '../../assets/';
 
 const Footer = () => {
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
@@ -27,11 +28,11 @@ const Footer = () => {
     
       <div className="contact_cards">
       <div className="contact_card  hover:scale-105 transition-all duration-300 ease-in-out">
-        <img src="src/assets/instagram.png" alt="instagram" />
+        <img src={images.instagram} alt="instagram" />
         <a href="https://www.instagram.com/happypay.ng/?igshid=NTc4MTIwNjQ2YQ%3D%3D" className='text-sm lg:text-xl text-center' target='_blank'>happypay.ng</a>
       </div>
       <div className="contact_card hover:scale-105 transition-all duration-300 ease-in-out">
-        <img src="src/assets/whatsapp.png" alt="whatsapp" />
+        <img src={images.whatsapp} alt="whatsapp" />
         <a href="https://wa.link/6o3wnw" className='text-sm lg:text-xl text-center' target='_blank' >+234 814 513 9201</a>
       </div>
     </div>

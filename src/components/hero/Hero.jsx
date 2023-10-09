@@ -1,6 +1,7 @@
 import React from 'react';
 import Typewriter from "typewriter-effect";
 import { Link } from 'react-scroll'
+import { images } from '../../assets/'
 
 const Hero = () => {
   return (
@@ -54,29 +55,30 @@ const Hero = () => {
               </div>
               
               <div className='flex justify-center items-center w-full artbox'>
-                  <div className='design-container'>
+                  
+                    <div className='design-container' >
                     <div className='circle' style={{ backgroundColor: "red" }}></div>
-                    <img src="/src/assets/plane1.png" alt="" className='scale-x-[-1]' />
+                    <img src={images.plane1} alt="" className='scale-x-[-1]' />
                   </div>
 
                   <div className='design-container'>
-                    <img src="/src/assets/yacht1.png" alt="" />
+                    <img src={images.yacht1} alt="" />
                     <div className='cylinder' style={{ backgroundColor: "orange" }}></div>
                   </div>
 
                   <div className='design-container'>
                     <div className='cylinder' style={{ backgroundColor: "green" }}></div>
-                    <img src="/src/assets/crypto1.png" alt="" />
-                    <img src="/src/assets/car2.png" alt="" />
+                    <img src={images.crypto1} alt="" />
+                    <img src={images.car2} alt="" />
                   </div>
 
                   <div className='design-container'>
-                    <img src="/src/assets/yacht2.png" alt="" />
+                    <img src={images.yacht2} alt="" />
                     <div className='cylinder' style={{ backgroundColor: "red" }}></div>
                   </div>
 
                   <div className='design-container'>
-                    <img src="/src/assets/plane2.png" alt="" />
+                    <img src={images.plane2} alt="" />
                   </div>
               </div>
               
@@ -88,7 +90,7 @@ const Hero = () => {
 
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-20 pb-32'>
         <div className='bg-white w-[400px] h-[350px] flex flex-col justify-center items-center text-center p-10 rounded-xl border-2 border-[#E8E8E8] hover:border-[#FF0000] hover:shadow-lg hover:shadow-red-500/50 transition-all ease-in-out duration-500'>
-          <img src="/src/assets/payment.png" alt="" 
+          <img src={images.payment} alt="" 
           className='w-[100px] h-[100px]'/>
           <h2 className='font-bold py-3 text-xl'>
             Ease of Payments
@@ -100,7 +102,7 @@ const Hero = () => {
 
 
         <div className='bg-white w-[400px] h-[350px] flex flex-col justify-center items-center text-center p-10 rounded-xl border-2 border-[#E8E8E8] hover:border-[#FF0000] hover:shadow-lg hover:shadow-red-500/50 transition-all ease-in-out duration-500'>
-          <img src="/src/assets/price.png" alt="" 
+          <img src={images.price} alt="" 
           className='w-[100px] h-[100px] '/>
           <h2 className='font-bold py-3 text-xl'>
             Competitive Pricing
@@ -112,7 +114,7 @@ const Hero = () => {
 
 
         <div className='bg-white w-[400px] h-[350px] flex flex-col justify-center items-center text-center p-10 rounded-xl border-2 border-[#E8E8E8] hover:border-[#FF0000] hover:shadow-lg hover:shadow-red-500/50 transition-all ease-in-out duration-500'>
-          <img src="/src/assets/help.png" alt="" 
+          <img src={images.help} alt="" 
           className='w-[100px] h-[100px] '/>
           <h2 className='font-bold py-3 text-xl'>
             Expert Support

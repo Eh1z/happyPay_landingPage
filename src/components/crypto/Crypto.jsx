@@ -1,5 +1,6 @@
-import React from 'react'
-import { Link } from 'react-scroll'
+import React from 'react';
+import { Link } from 'react-scroll';
+import { images } from '../../assets/'
 
 const Crypto = () => {
   return (
@@ -15,7 +16,7 @@ const Crypto = () => {
       </div>
 
       <div className='w-[400px] lg:w-[800px] flex justify-end '>
-        <img src="/src/assets/crypto2.png" alt="" 
+        <img src={images.crypto2} alt="" 
         className='rounded-lg'/>
       </div>
     </div>
