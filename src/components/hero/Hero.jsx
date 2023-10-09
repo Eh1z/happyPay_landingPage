@@ -55,27 +55,27 @@ const Hero = () => {
               <div className='flex justify-center items-center w-full artbox'>
                   <div className='design-container'>
                     <div className='circle' style={{ backgroundColor: "red" }}></div>
-                    <img src="/src/assets/image.jpg" alt="" />
+                    <img src="/src/assets/plane1.png" alt="" className='scale-x-[-1]' />
                   </div>
 
                   <div className='design-container'>
-                    <img src="/src/assets/image.jpg" alt="" />
+                    <img src="/src/assets/yacht1.png" alt="" />
                     <div className='cylinder' style={{ backgroundColor: "orange" }}></div>
                   </div>
 
                   <div className='design-container'>
                     <div className='cylinder' style={{ backgroundColor: "green" }}></div>
-                    <img src="/src/assets/image.jpg" alt="" />
-                    <img src="/src/assets/image.jpg" alt="" />
+                    <img src="/src/assets/crypto1.png" alt="" />
+                    <img src="/src/assets/car2.png" alt="" />
                   </div>
 
                   <div className='design-container'>
-                    <img src="/src/assets/image.jpg" alt="" />
+                    <img src="/src/assets/yacht2.png" alt="" />
                     <div className='cylinder' style={{ backgroundColor: "red" }}></div>
                   </div>
 
                   <div className='design-container'>
-                    <img src="/src/assets/image.jpg" alt="" />
+                    <img src="/src/assets/plane2.png" alt="" />
                   </div>
               </div>
               
