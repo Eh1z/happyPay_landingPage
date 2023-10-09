@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { HiMenuAlt3, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
+import { Link } from 'react-scroll'
 
 
 const Navbar = () => {
@@ -20,18 +21,28 @@ const Navbar = () => {
       <div className='hidden lg:flex justify-center items-center'>
           <ul 
           className='hidden lg:flex flex-row items-center justify-center gap-12 font-medium ease-in-out transition-all duration-300'>
-            <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 px-3 '>Crypto</li>
-            <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 px-3 '>Giftcards</li>
-            <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 px-3 '>Flights</li>
-            <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 px-3 '>Cars</li>
-            <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 px-3 '>Yachts</li>
+            <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 px-3 '>
+              <Link to='home'>Home</Link>
+            </li>
+            <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 px-3 '>
+              <Link to='crypto'>Crypto</Link>
+            </li>
+            <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 px-3 '>
+              <Link to='flights'>Flights</Link>
+            </li>
+            <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 px-3 '>
+              <Link to='cars'>Cars</Link>
+            </li>
+            <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 px-3 '>
+              <Link to='cars'>Yachts</Link>
+            </li>
           </ul>
 
 
-          <a href="#">
+          <Link to='footer'>
             <button className='flex items-center justify-center bg-[#fff2f2] hover:bg-[#FF0000] text-[#FF0000] hover:text-white font-medium rounded-xl border-2 border-[#FF0000] ml-10 px-8 py-3 ease-in-out transition-all duration-300 w-[180px]'>
               <p>Get In Touch</p>
-            </button></a>
+            </button></Link>
       </div>
 
       
@@ -57,11 +68,21 @@ const Navbar = () => {
 
 
             <ul className='flex flex-col items-center justify-center font-medium ease-in-out transition-all duration-300'>
-                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>Crypto</li>
-                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>Giftcards</li>
-                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>Flights</li>
-                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>Cars</li>
-                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>Yachts</li>
+                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>
+                  <Link to='home'>Home</Link>
+                </li>
+                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>
+                  <Link to='crypto'>Crypto</Link>
+                </li>
+                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>
+                  <Link to='flights'>Flights</Link>
+                </li>
+                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>
+                  <Link to='cars'>Cars</Link>
+                </li>
+                <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>
+                  <Link to='cars'>Yachts</Link>
+                </li>
             </ul>
         </motion.div>
 

@@ -149,5 +149,5 @@
 }
 
 .contact_btn{
-  @apply  text-white cursor-pointer py-3 px-10 rounded-md bg-[#DA3338] hover:bg-[#2F6F55] transition-all duration-300 ease-in-out flex items-center justify-center
+  @apply  text-white  border-2 border-[#FF0000] hover:border-[#008000]  cursor-pointer py-3 px-10 rounded-md bg-[#FF0000] hover:bg-[#008000] transition-all duration-300 ease-in-out flex items-center justify-center
 }

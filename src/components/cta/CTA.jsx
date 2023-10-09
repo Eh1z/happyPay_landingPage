@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-scroll'
 
 const CTA = () => {
   return (
@@ -12,11 +13,11 @@ const CTA = () => {
           We are not just another service provider; we are your gateway to a world of convenience, adventure, and indulgence. Here's why you should make us your trusted partner:
           </p>
 
-          <a href="#">
+          <Link to='footer'>
             <button className='flex items-center justify-center hover:bg-[#fff2f2] bg-[#FF0000] hover:text-[#FF0000] text-white font-medium rounded-xl border-2 border-[#FF0000] px-8 py-3 ease-in-out transition-all duration-300 w-[180px]'>
               <p>Get Started</p>
             </button>
-          </a>
+          </Link>
         </div>
     </div>
     </>

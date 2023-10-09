@@ -21,18 +21,18 @@ const Footer = () => {
 
   return (
     <>
-    <section className='py-32 px-10 lg:px-28 flex flex-col justify-center items-center'>
+    <section className='py-32 px-10 lg:px-28 flex flex-col justify-center items-center' id='footer'>
     <h2 className='text-3xl lg:text-5xl font-bold mb-5'>Get In Touch</h2>
     <p className='text-md lg:text-xl text-center'>We'd love to hear from you. If you have feedback or questions, you're always welcome to get in touch.</p>
     
       <div className="contact_cards">
-      <div className="contact_card ">
-        <img src="src/assets/mail.png" alt="email" />
-        <a href={`mailto:#`} className='text-sm lg:text-xl text-center'>info@email.com</a>
+      <div className="contact_card  hover:scale-105 transition-all duration-300 ease-in-out">
+        <img src="src/assets/instagram.png" alt="instagram" />
+        <a href="https://www.instagram.com/happypay.ng/?igshid=NTc4MTIwNjQ2YQ%3D%3D" className='text-sm lg:text-xl text-center' target='_blank'>happypay.ng</a>
       </div>
-      <div className="contact_card">
-        <img src="src/assets/mobile.png" alt="phone" />
-        <a href={`tel:#`} className='text-sm lg:text-xl text-center'>+234 xxxxx</a>
+      <div className="contact_card hover:scale-105 transition-all duration-300 ease-in-out">
+        <img src="src/assets/whatsapp.png" alt="whatsapp" />
+        <a href="https://wa.link/6o3wnw" className='text-sm lg:text-xl text-center' target='_blank' >+234 814 513 9201</a>
       </div>
     </div>
     
