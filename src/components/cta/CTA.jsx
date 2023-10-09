@@ -3,12 +3,12 @@ import React from 'react'
 const CTA = () => {
   return (
     <>
-    <div className='bg w-full h-[600px] px-32 py-20 flex justify-center items-center text-center'>
+    <div className='bg w-full px-10 lg:px-32 py-32 flex justify-center items-center text-center'>
         <div className='flex flex-col items-center justify-center'>
           <h1 className='text-3xl lg:text-6xl font-bold py-2'>
           All-in-One Travel & Luxury Experience. 
           </h1>
-          <p className='w-full lg:w-[60%] py-5 text-lg'>
+          <p className='w-full lg:w-[60%] py-5 text-md lg:text-lg mb-10'>
           We are not just another service provider; we are your gateway to a world of convenience, adventure, and indulgence. Here's why you should make us your trusted partner:
           </p>
 

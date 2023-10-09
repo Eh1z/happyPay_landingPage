@@ -82,11 +82,11 @@ const Hero = () => {
           
     </div>
 
-    <div className='w-full px-32 py-10 flex flex-col justify-center items-center'>
-      <h1 className='text-5xl font-bold mb-20'>Why Us?</h1>
+    <div className='w-full px-10 text-center lg:px-32  flex flex-col justify-center items-center mb-0 lg:mb-32'>
+      <h1 className='text-4xl font-bold mb-20'>Why Choose Us?</h1>
 
-      <div className='grid grid-cols-3 gap-20'>
-        <div className='bg-white w-[400px] h-[350px] flex flex-col justify-center items-center text-center p-10 rounded-xl border-2 border-[#E8E8E8] hover:border-[#FF0000] hover:shadow-lg hover:shadow-[#FF0000] transition-all ease-in-out duration-500'>
+      <div className='grid grid-cols-1 lg:grid-cols-3 gap-20 pb-32'>
+        <div className='bg-white w-[400px] h-[350px] flex flex-col justify-center items-center text-center p-10 rounded-xl border-2 border-[#E8E8E8] hover:border-[#FF0000] hover:shadow-lg hover:shadow-red-500/50 transition-all ease-in-out duration-500'>
           <img src="/src/assets/image.jpg" alt="" 
           className='w-[100px] h-[100px] rounded-full'/>
           <h2 className='font-bold py-3 text-xl'>
@@ -98,7 +98,7 @@ const Hero = () => {
         </div>
 
 
-        <div className='bg-white w-[400px] h-[350px] flex flex-col justify-center items-center text-center p-10 rounded-xl border-2 border-[#E8E8E8] hover:border-[#FF0000] hover:shadow-lg hover:shadow-[#FF0000] transition-all ease-in-out duration-500'>
+        <div className='bg-white w-[400px] h-[350px] flex flex-col justify-center items-center text-center p-10 rounded-xl border-2 border-[#E8E8E8] hover:border-[#FF0000] hover:shadow-lg hover:shadow-red-500/50 transition-all ease-in-out duration-500'>
           <img src="/src/assets/image.jpg" alt="" 
           className='w-[100px] h-[100px] rounded-full'/>
           <h2 className='font-bold py-3 text-xl'>
@@ -110,7 +110,7 @@ const Hero = () => {
         </div>
 
 
-        <div className='bg-white w-[400px] h-[350px] flex flex-col justify-center items-center text-center p-10 rounded-xl border-2 border-[#E8E8E8] hover:border-[#FF0000] hover:shadow-lg hover:shadow-[#FF0000] transition-all ease-in-out duration-500'>
+        <div className='bg-white w-[400px] h-[350px] flex flex-col justify-center items-center text-center p-10 rounded-xl border-2 border-[#E8E8E8] hover:border-[#FF0000] hover:shadow-lg hover:shadow-red-500/50 transition-all ease-in-out duration-500'>
           <img src="/src/assets/image.jpg" alt="" 
           className='w-[100px] h-[100px] rounded-full'/>
           <h2 className='font-bold py-3 text-xl'>
