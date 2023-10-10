@@ -85,13 +85,13 @@ const Hero = () => {
           
     </div>
 
-    <div className='w-full px-10 text-center lg:px-32  flex flex-col justify-center items-center mb-0 lg:mb-32'>
+    <div className='w-full text-center lg:px-32  flex flex-col justify-center items-center mb-0 lg:mb-32'>
       <h1 className='text-4xl font-bold mb-20'>Why Choose Us?</h1>
 
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-20 pb-32'>
-        <div className='bg-white w-[400px] h-[350px] flex flex-col justify-center items-center text-center p-10 rounded-xl border-2 border-[#E8E8E8] hover:border-[#FF0000] hover:shadow-lg hover:shadow-red-500/50 transition-all ease-in-out duration-500'>
+        <div className='bg-white w-[300px] h-[280px] flex flex-col justify-center items-center text-center p-10 rounded-xl border-2 border-[#E8E8E8] hover:border-[#FF0000] hover:shadow-lg hover:shadow-red-500/50 transition-all ease-in-out duration-500'>
           <img src={images.payment} alt="" 
-          className='w-[100px] h-[100px]'/>
+          className='w-[60px] h-[60px]'/>
           <h2 className='font-bold py-3 text-xl'>
             Ease of Payments
           </h2>
@@ -101,9 +101,9 @@ const Hero = () => {
         </div>
 
 
-        <div className='bg-white w-[400px] h-[350px] flex flex-col justify-center items-center text-center p-10 rounded-xl border-2 border-[#E8E8E8] hover:border-[#FF0000] hover:shadow-lg hover:shadow-red-500/50 transition-all ease-in-out duration-500'>
+        <div className='bg-white w-[300px] h-[280px] flex flex-col justify-center items-center text-center p-10 rounded-xl border-2 border-[#E8E8E8] hover:border-[#FF0000] hover:shadow-lg hover:shadow-red-500/50 transition-all ease-in-out duration-500'>
           <img src={images.price} alt="" 
-          className='w-[100px] h-[100px] '/>
+          className='w-[60px] h-[60px]'/>
           <h2 className='font-bold py-3 text-xl'>
             Competitive Pricing
           </h2>
@@ -113,9 +113,9 @@ const Hero = () => {
         </div>
 
 
-        <div className='bg-white w-[400px] h-[350px] flex flex-col justify-center items-center text-center p-10 rounded-xl border-2 border-[#E8E8E8] hover:border-[#FF0000] hover:shadow-lg hover:shadow-red-500/50 transition-all ease-in-out duration-500'>
+        <div className='bg-white w-[300px] h-[280px] flex flex-col justify-center items-center text-center p-10 rounded-xl border-2 border-[#E8E8E8] hover:border-[#FF0000] hover:shadow-lg hover:shadow-red-500/50 transition-all ease-in-out duration-500'>
           <img src={images.help} alt="" 
-          className='w-[100px] h-[100px] '/>
+          className='w-[60px] h-[60px]'/>
           <h2 className='font-bold py-3 text-xl'>
             Expert Support
           </h2>
