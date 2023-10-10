@@ -96,7 +96,7 @@ const Hero = () => {
             Ease of Payments
           </h2>
           <p className=''>
-          We prioritize your convenience with a seamless payment process, so you can focus on enjoying your experiences.
+          We prioritize your convenience with a seamless payment process, so you can focus and enjoy the experince.
           </p>
         </div>
 
@@ -120,7 +120,7 @@ const Hero = () => {
             Expert Support
           </h2>
           <p className=''>
-          Our dedicated to assisting you, whether it be trading or planning your dream vacation.
+          We are dedicated to assisting you, whether it be trading or planning your dream vacation.
           </p>
         </div>
       </div>

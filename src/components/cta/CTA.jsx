@@ -10,7 +10,7 @@ const CTA = () => {
           All-in-One Travel & Luxury Experience. 
           </h1>
           <p className='w-full lg:w-[60%] py-5 text-md lg:text-lg mb-10'>
-          We are not just another service provider; we are your gateway to a world of convenience, adventure, and indulgence. Here's why you should make us your trusted partner:
+          We are not just another service provider; we are your gateway to a world of convenience, adventure, and indulgence. That's why you should make us your trusted partner.
           </p>
 
           <Link to='footer'>
