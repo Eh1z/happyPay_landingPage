@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
 
 
-            <ul className='flex flex-col items-center justify-center font-medium ease-in-out transition-all duration-300'>
+            <ul className='flex flex-col items-center justify-center font-medium ease-in-out transition-all duration-300' onClick={() => setToggle(false)}>
                 <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>
                   <Link to='home'>Home</Link>
                 </li>
