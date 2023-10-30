@@ -67,21 +67,21 @@ const Navbar = () => {
           </div>
 
 
-            <ul className='flex flex-col items-center justify-center font-medium ease-in-out transition-all duration-300' onClick={() => setToggle(false)}>
+            <ul className='flex flex-col items-center justify-center font-medium ease-in-out transition-all duration-300'>
                 <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>
-                  <Link to='home'>Home</Link>
+                  <Link  onClick={() => setToggle(false)} to='home'>Home</Link>
                 </li>
                 <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>
-                  <Link to='crypto'>Crypto</Link>
+                  <Link  onClick={() => setToggle(false)} to='crypto'>Crypto</Link>
                 </li>
                 <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>
-                  <Link to='flights'>Flights</Link>
+                  <Link  onClick={() => setToggle(false)} to='flights'>Flights</Link>
                 </li>
                 <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>
-                  <Link to='cars'>Cars</Link>
+                  <Link  onClick={() => setToggle(false)} to='cars'>Cars</Link>
                 </li>
                 <li className='hover:text-[#FF0000] cursor-pointer hover:scale-125 py-2 '>
-                  <Link to='cars'>Yachts</Link>
+                  <Link  onClick={() => setToggle(false)} to='cars'>Yachts</Link>
                 </li>
             </ul>
         </motion.div>
