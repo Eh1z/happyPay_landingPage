@@ -33,7 +33,7 @@ const Footer = () => {
       </div>
       <div className="contact_card hover:scale-105 transition-all duration-300 ease-in-out">
         <img src={images.whatsapp} alt="whatsapp" />
-        <a href="https://wa.link/6o3wnw" className='text-sm lg:text-xl text-center' target='_blank' >+234 814 513 9201</a>
+        <a href="https://wa.link/v5g0de" className='text-sm lg:text-xl text-center' target='_blank' >+234 814 514 9201</a>
       </div>
     </div>
     
